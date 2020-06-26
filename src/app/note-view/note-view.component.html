@@ -1,0 +1,11 @@
+ 
+<!-- <mat-card (click)="editNote()" *ngFor="let mynote of notes">
+  <mat-card-title>
+    {{ mynote.title }}
+  </mat-card-title>
+  <mat-card-content>
+    {{ mynote.text }}
+  </mat-card-content>
+</mat-card> -->
+
+<app-note [note] = "mynote" *ngFor="let mynote of notes"></app-note>

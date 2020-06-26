@@ -1,0 +1,34 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Evaluate Assignments",
+      "text": "To be completed by 6:30pm"
+    },
+    {
+      "id": 2,
+      "title": "Update Tracker",
+      "text": "To be completed by 8:30pm"
+    },
+    {
+      "id": 3,
+      "title": "Upload Recording",
+      "text": "To be completed by 2:30pm"
+    },
+    {
+      "title": "Test Note",
+      "text": "testing note addition",
+      "id": 4
+    },
+    {
+      "title": "Dummy Note",
+      "text": "dummy note added",
+      "id": 5
+    },
+    {
+      "title": "Note for Test",
+      "text": "testing service",
+      "id": 6
+    }
+  ]
+}

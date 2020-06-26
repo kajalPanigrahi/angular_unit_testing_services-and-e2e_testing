@@ -1,0 +1,15 @@
+<!-- <p>
+  edit-note-view works!
+</p> -->
+
+<div class="note-input-fields">
+  <mat-form-field>
+    <input [(ngModel)]="note.title"  matInput  type="text" placeholder="Note Title">
+  </mat-form-field>
+  <mat-form-field>
+    <textarea [(ngModel)] = "note.text" matInput  placeholder="Note Text"></textarea>
+  </mat-form-field>
+</div>
+<div class="note-input-button">
+  <button (click)="saveNote()" mat-button>Done</button>
+</div>
